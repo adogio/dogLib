@@ -35,4 +35,17 @@ export default class pictures {
         })
         fileReader.readAsDataURL(file);
     }
+    public getURL(loaded: Function) {
+        let file = this.file.files[0];
+        let fileName = file.name;
+        let fileType = file.type ||
+            'image/' + fileName.substr(
+                fileName.lastIndexOf('.') + 1);
+        let fileReader = new FileReader();
+        fileReader.onload = function (e: any) {
+            let dataURL = e.target.result;
+            loaded(dataURL);
+        }
+        fileReader.readAsDataURL(file);
+    }
 }

@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/adogio/dogLib.git"
   },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "keywords": [
     "js",
     "ADog"
@@ -21,6 +26,12 @@
   },
   "homepage": "https://github.com/adogio/dogLib#readme",
   "dependencies": {
-    "dogui": "^1.0.0"
+    "dogui": "^1.0.0",
+    "babel-core": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "babel-runtime": "^6.0.0",
+    "babelify": "^7.2.0"
   }
 }

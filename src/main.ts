@@ -1,3 +1,3 @@
 declare var require: any;
-
-export const picture = require('./picture/picture');
+import importPicture from './picture/picture';
+export const picture = importPicture;

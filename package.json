@@ -1,6 +1,6 @@
 {
   "name": "doglib",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "A dog multi function library for JavaScript",
   "main": "src/main.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "ADog"
   ],
   "author": "WMXPY",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/adogio/dogLib/issues"
   },

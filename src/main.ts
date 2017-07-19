@@ -1,5 +1,8 @@
 declare var require: any;
 import importPicture from './picture/picture';
-import importqrcode from './qrcode/qrcode';
+import {
+    img, table
+} from './qrcode/qrcode';
 export const picture = importPicture;
-export const qrcode = importqrcode;
+export const qrcode = img;
+export const qrtable = table;

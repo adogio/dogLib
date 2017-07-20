@@ -17,7 +17,7 @@ export const img = function (text, size) {
 export const table = function (text, size) {
     let typeNumber = 4;
     let CorrectLevel = 'L';
-    var table = totable(text, size);
+    var tablere = totable(text, size);
     function totable(text, size) {
         var qr = qrcode(typeNumber, CorrectLevel);
         qr.addData(text);
@@ -25,5 +25,5 @@ export const table = function (text, size) {
         var table = qr.createTableTag(size);
         return table;
     }
-    return table;
+    return tablere;
 }

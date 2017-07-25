@@ -1,6 +1,6 @@
 {
   "name": "doglib",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A dog multi function library for JavaScript",
   "main": "src/main.js",
   "scripts": {

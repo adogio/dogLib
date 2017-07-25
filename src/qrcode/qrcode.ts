@@ -14,8 +14,11 @@ export const img = function (text, size) {
     }
     return dataURL;
 }
-export const table = function (text, size) {
+export const table = function (text, size, typenumber) {
     let typeNumber = 4;
+    if (typenumber) {
+        typeNumber = typenumber;
+    }
     let CorrectLevel = 'L';
     var tablere = totable(text, size);
     function totable(text, size) {

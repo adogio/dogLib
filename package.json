@@ -1,6 +1,6 @@
 {
   "name": "doglib",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A dog multi function library for JavaScript",
   "main": "src/main.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "url": "https://github.com/adogio/dogLib/issues"
   },
   "homepage": "https://github.com/adogio/dogLib#readme",
-  "dependencies": {
+  "devDependencies": {
     "dogui": "^1.0.0",
     "babel-core": "^6.0.0",
     "babel-plugin-transform-runtime": "^6.0.0",
